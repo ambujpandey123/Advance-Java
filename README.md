@@ -1,12 +1,13 @@
 # Java Programs – Anudip Course Collection
 
 This repository contains Java programs developed as part of the Advanced Java course at Anudip Foundation.
-hello
 
 ## 📂 Folder Structure
 
 - `javabasics/`: Contains fundamental Java programs covering basic concepts.
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
+
+# files:
 
 Java-Programs/
 ├── Multi_File_Programs/
