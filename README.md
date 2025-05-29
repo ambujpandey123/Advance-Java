@@ -7,13 +7,11 @@ This repository contains Java programs developed as part of the Advanced Java co
 - `javabasics/`: Contains fundamental Java programs covering basic concepts.
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
 
-# files:
-
+```bash
 Java-Programs/
 ├── Multi_File_Programs/
 │ ├── EmployImp.java
 │ ├── Employee.java
-│ ├── Student.class
 │ ├── Student.java
 │ └── StudentImp.java
 ├── javabasics/
@@ -33,7 +31,7 @@ Java-Programs/
 │ └── sumofdigit.java
 ├── .gitignore
 └── README.md
-
+```
 ## 🚀 How to Download and Run
 
 ### 1. Clone the Repository
