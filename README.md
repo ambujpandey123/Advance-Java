@@ -7,31 +7,29 @@ This repository contains Java programs developed as part of the Advanced Java co
 - `javabasics/`: Contains fundamental Java programs covering basic concepts.
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
 
-```bash
-Java-Programs/
-├── Multi_File_Programs/
-│ ├── EmployImp.java
-│ ├── Employee.java
-│ ├── Student.java
-│ └── StudentImp.java
-├── javabasics/
-│ ├── AreaOfShape.java
-│ ├── Grade.java
-│ ├── HelloWorld.java
-│ ├── LargestInThree.java
-│ ├── Main.java
-│ ├── MovieRating.java
-│ ├── PalindromeNumber.java
-│ ├── PositiveNumAndEvenOdd.java
-│ ├── PrimeNumberCheck.java
-│ ├── Switch.java
-│ ├── TrafficLightMessage.java
-│ ├── VolumeOfShape.java
-│ ├── fibonaciseries.java
-│ └── sumofdigit.java
-├── .gitignore
-└── README.md
-```
+#!/bin/bash
+
+# Check if directory argument is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <directory>"
+  exit 1
+fi
+
+DIR="$1"
+
+# Check if 'tree' command exists
+if ! command -v tree &> /dev/null; then
+  echo "'tree' command not found. Please install it."
+  exit 1
+fi
+
+# Generate the directory tree and format
+tree -tf --noreport -I '*~' --charset ascii "$DIR" | \
+sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e "s:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g" | \
+awk '
+BEGIN { print "# Project Tree\n" }
+{ print }
+'
 ## 🚀 How to Download and Run
 
 ### 1. Clone the Repository
