@@ -8,7 +8,7 @@ This repository contains Java programs developed as part of the Advanced Java co
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
 
  
-# Java-Programs/
+# 📂 Java-Programs/
 
 <details>
 <summary>🚀 <strong>Multi_File_Programs</strong></summary>
@@ -45,7 +45,7 @@ This repository contains Java programs developed as part of the Advanced Java co
 </details>
 
 <details>
-<summary>🎯 <strong>InterMidate_Java</strong></summary>
+<summary>📂 <strong>InterMidate_Java</strong></summary>
 
 - ArrayListProgram.java  
 - ConvertCurrency.java  
@@ -65,9 +65,6 @@ This repository contains Java programs developed as part of the Advanced Java co
 
 </details>
 
-
-- .gitignore
--  README.md
  
 ## 🚀 How to Download and Run
 
