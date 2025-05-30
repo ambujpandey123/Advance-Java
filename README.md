@@ -7,17 +7,20 @@ This repository contains Java programs developed as part of the Advanced Java co
 - `javabasics/`: Contains fundamental Java programs covering basic concepts.
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
 
-```bash
+ 
 Java-Programs/
 <details>
 <summary>├── Multi_File_Programs/ </summary>
+```bash
 │ ├── EmployImp.java
 │ ├── Employee.java
 │ ├── Student.java
 │ └── StudentImp.java
+```
 </details>
 <details>
 <summary>├── javabasics/ </summary>
+```bash
 │ ├── AreaOfShape.java
 │ ├── Grade.java
 │ ├── HelloWorld.java
@@ -32,10 +35,11 @@ Java-Programs/
 │ ├── VolumeOfShape.java
 │ ├── fibonaciseries.java
 │ └── sumofdigit.java
+```
 </details>
 ├── .gitignore
 └── README.md
-```
+ 
 ## 🚀 How to Download and Run
 
 ### 1. Clone the Repository
