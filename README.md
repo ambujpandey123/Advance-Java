@@ -11,7 +11,7 @@ This repository contains Java programs developed as part of the Advanced Java co
 # 📂 Java-Programs/
 
 <details>
-<summary>🚀 <strong>Multi_File_Programs</strong></summary>
+<summary>📂 <strong>Multi_File_Programs</strong></summary>
 
 - EmployImp.java  
 - Employee.java  
