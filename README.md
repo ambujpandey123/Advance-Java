@@ -11,13 +11,16 @@ This repository contains Java programs developed as part of the Advanced Java co
 # Java-Programs/
 <details>
 <summary>├── Multi_File_Programs/ </summary>
+
 - EmployImp.java
 - Employee.java
 - Student.java
 - StudentImp.java
+
 </details>
 <details>
 <summary>├── javabasics/ </summary>
+
 - AreaOfShape.java
 - Grade.java
 - HelloWorld.java
@@ -32,9 +35,11 @@ This repository contains Java programs developed as part of the Advanced Java co
 - VolumeOfShape.java
 - fibonaciseries.java
 - sumofdigit.java
+
 </details>
-├── .gitignore
-└── README.md
+
+- .gitignore
+-  README.md
  
 ## 🚀 How to Download and Run
 
