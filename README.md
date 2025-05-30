@@ -9,27 +9,14 @@ This repository contains Java programs developed as part of the Advanced Java co
 
 #!/bin/bash
 
-# Check if directory argument is provided
-if [ -z "$1" ]; then
-  echo "Usage: $0 <directory>"
-  exit 1
-fi
+#File: tree-md
 
-DIR="$1"
+tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
+       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
 
-# Check if 'tree' command exists
-if ! command -v tree &> /dev/null; then
-  echo "'tree' command not found. Please install it."
-  exit 1
-fi
+printf "# Project tree\n\n${tree}"
 
-# Generate the directory tree and format
-tree -tf --noreport -I '*~' --charset ascii "$DIR" | \
-sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e "s:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g" | \
-awk '
-BEGIN { print "# Project Tree\n" }
-{ print }
-'
+sksk
 ## 🚀 How to Download and Run
 
 ### 1. Clone the Repository
