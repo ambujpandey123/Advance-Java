@@ -8,34 +8,30 @@ This repository contains Java programs developed as part of the Advanced Java co
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
 
  
-Java-Programs/
+# Java-Programs/
 <details>
 <summary>├── Multi_File_Programs/ </summary>
-```bash
-│ ├── EmployImp.java
-│ ├── Employee.java
-│ ├── Student.java
-│ └── StudentImp.java
-```
+- EmployImp.java
+- Employee.java
+- Student.java
+- StudentImp.java
 </details>
 <details>
 <summary>├── javabasics/ </summary>
-```bash
-│ ├── AreaOfShape.java
-│ ├── Grade.java
-│ ├── HelloWorld.java
-│ ├── LargestInThree.java
-│ ├── Main.java
-│ ├── MovieRating.java
-│ ├── PalindromeNumber.java
-│ ├── PositiveNumAndEvenOdd.java
-│ ├── PrimeNumberCheck.java
-│ ├── Switch.java
-│ ├── TrafficLightMessage.java
-│ ├── VolumeOfShape.java
-│ ├── fibonaciseries.java
-│ └── sumofdigit.java
-```
+- AreaOfShape.java
+- Grade.java
+- HelloWorld.java
+- LargestInThree.java
+- Main.java
+- MovieRating.java
+- PalindromeNumber.java
+- PositiveNumAndEvenOdd.java
+- PrimeNumberCheck.java
+- Switch.java
+- TrafficLightMessage.java
+- VolumeOfShape.java
+- fibonaciseries.java
+- sumofdigit.java
 </details>
 ├── .gitignore
 └── README.md
