@@ -7,16 +7,35 @@ This repository contains Java programs developed as part of the Advanced Java co
 - `javabasics/`: Contains fundamental Java programs covering basic concepts.
 - `Multi_File_Programs/`: Includes Java programs that span multiple files, demonstrating more complex structures.
 
-#!/bin/bash
-
-#File: tree-md
-
-tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
-       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
-
-printf "# Project tree\n\n${tree}"
-
-sksk
+```bash
+Java-Programs/
+<details>
+<summary>├── Multi_File_Programs/ </summary>
+│ ├── EmployImp.java
+│ ├── Employee.java
+│ ├── Student.java
+│ └── StudentImp.java
+</details>
+<details>
+<summary>├── javabasics/ </summary>
+│ ├── AreaOfShape.java
+│ ├── Grade.java
+│ ├── HelloWorld.java
+│ ├── LargestInThree.java
+│ ├── Main.java
+│ ├── MovieRating.java
+│ ├── PalindromeNumber.java
+│ ├── PositiveNumAndEvenOdd.java
+│ ├── PrimeNumberCheck.java
+│ ├── Switch.java
+│ ├── TrafficLightMessage.java
+│ ├── VolumeOfShape.java
+│ ├── fibonaciseries.java
+│ └── sumofdigit.java
+</details>
+├── .gitignore
+└── README.md
+```
 ## 🚀 How to Download and Run
 
 ### 1. Clone the Repository
