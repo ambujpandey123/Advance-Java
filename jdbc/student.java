@@ -11,7 +11,7 @@ public class student {
 	
     public static void main(String[] args) throws SQLException {
     	ConnectDB();
-//    	int i=insert(108,"Raja","Maharastra");
+    	int i=insert(108,"Raja","Maharastra");
     	display();
     	 
     }
@@ -46,7 +46,7 @@ public class student {
     	Statement stmt = conn.createStatement();
         
     	
-        ResultSet rs = stmt.executeQuery("SELECT * FROM Student");
+        ResultSet rs = stmt.executeQuery("SELECT * FROM student");
 
         while (rs.next()) {
             System.out.println("RollNo: " + rs.getInt("rollno") +
