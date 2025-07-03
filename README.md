@@ -10,60 +10,9 @@ This repository contains Java programs developed as part of the Advanced Java co
  
 ### 📂 Java-Programs/
 
-<details>
-<summary>📂 <strong>Multi_File_Programs</strong></summary>
-
-- EmployImp.java  
-- Employee.java  
-- Student.java  
-- StudentImp.java  
-
-</details>
-
-<details>
-<summary>📂 <strong>Java_Basics</strong></summary>
-
-- AreaOfShape.java  
-- BuzzNumber.java  
-- DudeneyNumber.java  
-- Grade.java  
-- HelloWorld.java  
-- LargestInThree.java  
-- Main.java  
-- MovieRating.java  
-- NeonNo.java  
-- NivenNumber.java  
-- PalindromeNumber.java  
-- PositiveNumAndEvenOdd.java  
-- PrimeNumberCheck.java  
-- Switch.java  
-- TrafficLightMessage.java  
-- VolumeOfShape.java  
-- fibonacciSeries.java  
-- sumofdigits.java  
-
-</details>
-
-<details>
-<summary>📂 <strong>InterMidate_Java</strong></summary>
-
-- ArrayListProgram.java  
-- ConvertCurrency.java  
-- CustomException.java  
-- ElectricityBill.java  
-- FestivalGift.java  
-- IndexOutOfBound.java  
-- TaxCalculator.java  
-
-</details>
-
-<details>
-<summary>🔧 <strong>Additional Files</strong></summary>
-
-- .gitignore  
-- README.md  
-
-</details>
+### JDBC Project 
+#### Employee Managemet System
+- CRUD on Employee Details Using MYSQL Database
 
  
 ## 🚀 How to Download and Run
