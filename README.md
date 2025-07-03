@@ -10,8 +10,8 @@ This repository contains Java programs developed as part of the Advanced Java co
  
 ### 📂 Java-Programs/
 
-### JDBC Project 
-#### Employee Managemet System
+## JDBC Project 
+## 🛠️✅ Employee Managemet System
 - CRUD on Employee Details Using MYSQL Database
 
  
