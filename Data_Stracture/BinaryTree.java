@@ -1,4 +1,3 @@
-package data_stracture;
 public class BinaryTree {
     static class Node{
 		int data;
@@ -23,19 +22,27 @@ public class BinaryTree {
 			return newNode;
 		 }
 	}
+	public static void showTree(Node root) {
+    	   if(root != null) {
+    		System.out.println(root.data);
+    		showTree(root.left);
+    		showTree(root.right);
+    	}
+    	return;
+    }
 	public static void main(String[] args) {
 		 int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,6,-1,-1,7,-1,-1};
 		binaarytree tree = new binaarytree();
 		Node root = tree.buildTree(nodes);
+		showTree(root);
 		System.out.println("Root Node: "+ root.data);
-		System.out.println("Left And Right Child Node: "+ root.left.data + "  "+root.right.data);
-		
 
 	}
 
 }
 
-// Its a PreOrder Traversal The tree Looks Like This :
+// It's a PreOrder Traversal (root, left, right)
+// The tree Looks Like This :
 //       1
 //      / \
 //     2   3
