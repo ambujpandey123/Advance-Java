@@ -1,4 +1,3 @@
-
 class DoublyLinkedList {
 
     static int size = 0;
@@ -49,7 +48,7 @@ class DoublyLinkedList {
             insertEnd(data);
             return;
         }
-        if (size == 0 || position == 0) {
+        if (size == 0 || position <= 0) {
             insertFront(data);
             return;
         }
@@ -121,24 +120,18 @@ class DoublyLinkedList {
         if (size - position >= position) {
             int count = 0;
             Node currentNode = head;
-            Node temp;
-            while (++count < position) {
+            while (count++ < position) {
                 currentNode = currentNode.next;
             }
-            temp = currentNode.next.next;
-            temp.prev = currentNode;
-            currentNode.next = temp;
         } else {
             int count = size - 1;
             Node currentNode = tail;
-            Node temp;
-            while (count-- > position) {
+            while (count--> position) {
                 currentNode = currentNode.prev;
             }
-            temp = currentNode.prev.prev;
-            temp.next = currentNode;
-            currentNode.prev = temp;
         }
+        currentNode.prev.next=currentNode.next;
+        currentNode.next.prev=currentNode.prev;
         size--;
     }
 
